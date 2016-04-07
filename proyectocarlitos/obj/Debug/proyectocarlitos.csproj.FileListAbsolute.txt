@@ -40,3 +40,4 @@ C:\Users\naty\Documents\Autonoma\11vo Cuatri\Sistema Distribuidos\proyectocarlit
 C:\Users\Usuario\Desktop\Proy - Carlitos\proyectocarlitos - MOD\proyectocarlitos\proyectocarlitos\bin\Debug\proyectocarlitos.exe.config
 C:\Users\Usuario\Desktop\Proy - Carlitos\proyectocarlitos - MOD\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.exe
 C:\Users\Usuario\Desktop\Proy - Carlitos\proyectocarlitos - MOD\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.pdb
+C:\Users\Usuario\Desktop\proyectocarlitos\proyectocarlitos\bin\Debug\proyectocarlitos.exe.config

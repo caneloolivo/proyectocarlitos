@@ -16,5 +16,10 @@ namespace proyectocarlitos
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //ola k ase
+        }
     }
 }
