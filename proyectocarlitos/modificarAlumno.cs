@@ -19,7 +19,7 @@ namespace proyectocarlitos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //ola k ase
+            //ola k aseh¿
         }
     }
 }
