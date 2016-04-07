@@ -50,6 +50,12 @@
     <Compile Include="altaAlumno.Designer.cs">
       <DependentUpon>altaAlumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="altaCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="altaCarrera.Designer.cs">
+      <DependentUpon>altaCarrera.cs</DependentUpon>
+    </Compile>
     <Compile Include="altaEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,12 @@
     </Compile>
     <Compile Include="altaRepresentante.Designer.cs">
       <DependentUpon>altaRepresentante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enviarnotificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enviarnotificacion.Designer.cs">
+      <DependentUpon>enviarnotificacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,6 +91,12 @@
     </Compile>
     <Compile Include="modificarAlumno.Designer.cs">
       <DependentUpon>modificarAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificarCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificarCarrera.Designer.cs">
+      <DependentUpon>modificarCarrera.cs</DependentUpon>
     </Compile>
     <Compile Include="modificarEmpresa.cs">
       <SubType>Form</SubType>
@@ -109,11 +127,17 @@
     <EmbeddedResource Include="altaAlumno.resx">
       <DependentUpon>altaAlumno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="altaCarrera.resx">
+      <DependentUpon>altaCarrera.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="altaEmpresa.resx">
       <DependentUpon>altaEmpresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="altaRepresentante.resx">
       <DependentUpon>altaRepresentante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enviarnotificacion.resx">
+      <DependentUpon>enviarnotificacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -123,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="modificarAlumno.resx">
       <DependentUpon>modificarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificarCarrera.resx">
+      <DependentUpon>modificarCarrera.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="modificarEmpresa.resx">
       <DependentUpon>modificarEmpresa.cs</DependentUpon>

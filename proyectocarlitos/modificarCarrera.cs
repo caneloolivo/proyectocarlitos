@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace proyectocarlitos
 {
-    public partial class altaAlumno : Form
+    public partial class modificarCarrera : Form
     {
-        public altaAlumno()
+        public modificarCarrera()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            //hola
-        }
-
-        private void altaAlumno_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

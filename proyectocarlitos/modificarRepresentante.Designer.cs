@@ -64,7 +64,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(429, 160);
+            this.comboBox1.Location = new System.Drawing.Point(410, 157);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 42;
@@ -73,11 +73,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(368, 160);
+            this.label11.Location = new System.Drawing.Point(337, 158);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 16);
+            this.label11.Size = new System.Drawing.Size(67, 16);
             this.label11.TabIndex = 41;
-            this.label11.Text = "Puesto:";
+            this.label11.Text = "Empresa:";
             // 
             // label10
             // 

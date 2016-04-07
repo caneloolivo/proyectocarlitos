@@ -36,6 +36,9 @@
             this.alumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaDeAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.altaCarreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.altaCarreraToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarCarreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.representanteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaRepresentanteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarRepresentanteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +47,9 @@
             this.modificarEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarNotificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.carreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.altaCarreraToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.modifficarCarreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +57,9 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivoToolStripMenuItem,
+            this.carreraToolStripMenuItem,
             this.alumnoToolStripMenuItem,
+            this.altaCarreraToolStripMenuItem,
             this.representanteToolStripMenuItem,
             this.empresaToolStripMenuItem,
             this.notificacionesToolStripMenuItem});
@@ -68,7 +76,7 @@
             this.cerrarSesionToolStripMenuItem});
             this.archivoToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(69, 25);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
             // verArchivosToolStripMenuItem
@@ -82,7 +90,7 @@
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.reportesToolStripMenuItem.Text = "Reportes";
             this.reportesToolStripMenuItem.Click += new System.EventHandler(this.reportesToolStripMenuItem_Click);
             // 
@@ -100,7 +108,7 @@
             this.modificarAlumnoToolStripMenuItem});
             this.alumnoToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.alumnoToolStripMenuItem.Name = "alumnoToolStripMenuItem";
-            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(70, 25);
             this.alumnoToolStripMenuItem.Text = "Alumno";
             // 
             // altaDeAlumnoToolStripMenuItem
@@ -117,6 +125,31 @@
             this.modificarAlumnoToolStripMenuItem.Text = "Modificar alumno";
             this.modificarAlumnoToolStripMenuItem.Click += new System.EventHandler(this.modificarAlumnoToolStripMenuItem_Click);
             // 
+            // altaCarreraToolStripMenuItem
+            // 
+            this.altaCarreraToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.altaCarreraToolStripMenuItem1,
+            this.modificarCarreraToolStripMenuItem});
+            this.altaCarreraToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.altaCarreraToolStripMenuItem.Name = "altaCarreraToolStripMenuItem";
+            this.altaCarreraToolStripMenuItem.Size = new System.Drawing.Size(94, 25);
+            this.altaCarreraToolStripMenuItem.Text = "Alta Carrera";
+            this.altaCarreraToolStripMenuItem.Click += new System.EventHandler(this.altaCarreraToolStripMenuItem_Click);
+            // 
+            // altaCarreraToolStripMenuItem1
+            // 
+            this.altaCarreraToolStripMenuItem1.Name = "altaCarreraToolStripMenuItem1";
+            this.altaCarreraToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
+            this.altaCarreraToolStripMenuItem1.Text = "Alta Carrera";
+            this.altaCarreraToolStripMenuItem1.Click += new System.EventHandler(this.altaCarreraToolStripMenuItem1_Click);
+            // 
+            // modificarCarreraToolStripMenuItem
+            // 
+            this.modificarCarreraToolStripMenuItem.Name = "modificarCarreraToolStripMenuItem";
+            this.modificarCarreraToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.modificarCarreraToolStripMenuItem.Text = "Modificar Carrera";
+            this.modificarCarreraToolStripMenuItem.Click += new System.EventHandler(this.modificarCarreraToolStripMenuItem_Click);
+            // 
             // representanteToolStripMenuItem
             // 
             this.representanteToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -124,7 +157,7 @@
             this.modificarRepresentanteToolStripMenuItem});
             this.representanteToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.representanteToolStripMenuItem.Name = "representanteToolStripMenuItem";
-            this.representanteToolStripMenuItem.Size = new System.Drawing.Size(111, 20);
+            this.representanteToolStripMenuItem.Size = new System.Drawing.Size(111, 25);
             this.representanteToolStripMenuItem.Text = "Representante ";
             // 
             // altaRepresentanteToolStripMenuItem
@@ -148,7 +181,7 @@
             this.modificarEmpresaToolStripMenuItem});
             this.empresaToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.empresaToolStripMenuItem.Name = "empresaToolStripMenuItem";
-            this.empresaToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
+            this.empresaToolStripMenuItem.Size = new System.Drawing.Size(78, 25);
             this.empresaToolStripMenuItem.Text = "Empresa ";
             // 
             // altaEmpresaToolStripMenuItem
@@ -171,7 +204,7 @@
             this.enviarNotificacionesToolStripMenuItem});
             this.notificacionesToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.notificacionesToolStripMenuItem.Name = "notificacionesToolStripMenuItem";
-            this.notificacionesToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
+            this.notificacionesToolStripMenuItem.Size = new System.Drawing.Size(107, 25);
             this.notificacionesToolStripMenuItem.Text = "Notificaciones";
             // 
             // enviarNotificacionesToolStripMenuItem
@@ -179,6 +212,29 @@
             this.enviarNotificacionesToolStripMenuItem.Name = "enviarNotificacionesToolStripMenuItem";
             this.enviarNotificacionesToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.enviarNotificacionesToolStripMenuItem.Text = "Enviar Notificaciones";
+            this.enviarNotificacionesToolStripMenuItem.Click += new System.EventHandler(this.enviarNotificacionesToolStripMenuItem_Click);
+            // 
+            // carreraToolStripMenuItem
+            // 
+            this.carreraToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.altaCarreraToolStripMenuItem2,
+            this.modifficarCarreraToolStripMenuItem});
+            this.carreraToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.carreraToolStripMenuItem.Name = "carreraToolStripMenuItem";
+            this.carreraToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.carreraToolStripMenuItem.Text = "Carrera";
+            // 
+            // altaCarreraToolStripMenuItem2
+            // 
+            this.altaCarreraToolStripMenuItem2.Name = "altaCarreraToolStripMenuItem2";
+            this.altaCarreraToolStripMenuItem2.Size = new System.Drawing.Size(212, 26);
+            this.altaCarreraToolStripMenuItem2.Text = "Alta carrera";
+            // 
+            // modifficarCarreraToolStripMenuItem
+            // 
+            this.modifficarCarreraToolStripMenuItem.Name = "modifficarCarreraToolStripMenuItem";
+            this.modifficarCarreraToolStripMenuItem.Size = new System.Drawing.Size(212, 26);
+            this.modifficarCarreraToolStripMenuItem.Text = "Modifficar Carrera";
             // 
             // Form1
             // 
@@ -216,6 +272,12 @@
         private System.Windows.Forms.ToolStripMenuItem enviarNotificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarRepresentanteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarEmpresaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem modificarCarreraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem carreraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem modifficarCarreraToolStripMenuItem;
     }
 }
 

@@ -51,7 +51,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -155,13 +155,13 @@
             this.label8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(476, 75);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(93, 16);
+            this.label8.Size = new System.Drawing.Size(62, 16);
             this.label8.TabIndex = 13;
-            this.label8.Text = "Cuatrimestre:";
+            this.label8.Text = "Periodo:";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(575, 75);
+            this.textBox4.Location = new System.Drawing.Point(544, 74);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(108, 20);
             this.textBox4.TabIndex = 14;
@@ -254,19 +254,20 @@
             this.button1.Text = "Registrar ";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBox9
+            // comboBox1
             // 
-            this.textBox9.Location = new System.Drawing.Point(311, 74);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(143, 20);
-            this.textBox9.TabIndex = 25;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(311, 74);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 25;
             // 
             // altaAlumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(798, 366);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label13);
@@ -325,6 +326,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

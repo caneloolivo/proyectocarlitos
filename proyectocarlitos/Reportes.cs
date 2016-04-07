@@ -22,5 +22,10 @@ namespace proyectocarlitos
             reportesservicio form = new reportesservicio();
             form.Show(this);
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

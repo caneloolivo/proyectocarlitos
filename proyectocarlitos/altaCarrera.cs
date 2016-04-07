@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace proyectocarlitos
 {
-    public partial class altaAlumno : Form
+    public partial class altaCarrera : Form
     {
-        public altaAlumno()
+        public altaCarrera()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
-            //hola
+
         }
 
-        private void altaAlumno_Load(object sender, EventArgs e)
+        private void altaCarrera_Load(object sender, EventArgs e)
         {
 
         }

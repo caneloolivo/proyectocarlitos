@@ -69,5 +69,28 @@ namespace proyectocarlitos
             Reportes form = new Reportes();
             form.Show(this);
         }
+
+        private void enviarNotificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            enviarnotificacion form = new enviarnotificacion();
+            form.Show(this);
+        }
+
+        private void altaCarreraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void altaCarreraToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            altaCarrera form = new altaCarrera();
+            form.Show(this);
+        }
+
+        private void modificarCarreraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            modificarCarrera form = new modificarCarrera();
+            form.Show(this);
+        }
     }
 }
