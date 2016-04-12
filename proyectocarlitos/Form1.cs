@@ -92,5 +92,10 @@ namespace proyectocarlitos
             modificarCarrera form = new modificarCarrera();
             form.Show(this);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // D: pruebita
+        }
     }
 }
