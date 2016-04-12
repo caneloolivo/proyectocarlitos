@@ -21,5 +21,11 @@ namespace proyectocarlitos
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //hola putos
+
+        }
     }
 }
