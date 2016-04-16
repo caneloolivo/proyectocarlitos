@@ -42,3 +42,24 @@ C:\Users\Usuario\Desktop\Proy - Carlitos\proyectocarlitos - MOD\proyectocarlitos
 C:\Users\Usuario\Desktop\Proy - Carlitos\proyectocarlitos - MOD\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.pdb
 C:\Users\Usuario\Desktop\proyectocarlitos\proyectocarlitos\bin\Debug\proyectocarlitos.exe.config
 C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\bin\Debug\proyectocarlitos.exe.config
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\bin\Debug\proyectocarlitos.exe
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\bin\Debug\proyectocarlitos.pdb
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.csprojResolveAssemblyReference.cache
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.altaAlumno.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.altaCarrera.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.altaEmpresa.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.altaRepresentante.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.enviarnotificacion.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.Form1.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.Form2.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.Login.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.modificarAlumno.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.modificarCarrera.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.modificarEmpresa.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.modificarRepresentante.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.Properties.Resources.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.Reportes.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.reportesservicio.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.csproj.GenerateResource.Cache
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.exe
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.pdb
