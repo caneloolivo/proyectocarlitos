@@ -24,6 +24,11 @@ namespace proyectocarlitos
 
         private void altaAlumno_Load(object sender, EventArgs e)
         {
+            // no sirve
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
