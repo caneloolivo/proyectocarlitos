@@ -50,13 +50,16 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label16 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(83, 330);
+            this.button1.Location = new System.Drawing.Point(198, 330);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(207, 29);
             this.button1.TabIndex = 43;
@@ -66,7 +69,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(209, 183);
+            this.comboBox1.Location = new System.Drawing.Point(201, 235);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(145, 21);
             this.comboBox1.TabIndex = 42;
@@ -75,7 +78,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(206, 164);
+            this.label11.Location = new System.Drawing.Point(198, 216);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(67, 16);
             this.label11.TabIndex = 41;
@@ -93,28 +96,28 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(209, 132);
+            this.textBox9.Location = new System.Drawing.Point(201, 188);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(39, 20);
             this.textBox9.TabIndex = 39;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(209, 80);
+            this.textBox8.Location = new System.Drawing.Point(198, 132);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(145, 20);
             this.textBox8.TabIndex = 38;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(24, 291);
+            this.textBox7.Location = new System.Drawing.Point(201, 290);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(146, 20);
             this.textBox7.TabIndex = 37;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(209, 291);
+            this.textBox6.Location = new System.Drawing.Point(24, 335);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(145, 20);
             this.textBox6.TabIndex = 36;
@@ -150,7 +153,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(209, 113);
+            this.label7.Location = new System.Drawing.Point(198, 165);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(32, 16);
             this.label7.TabIndex = 28;
@@ -160,7 +163,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(206, 61);
+            this.label6.Location = new System.Drawing.Point(195, 113);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(67, 16);
             this.label6.TabIndex = 27;
@@ -170,7 +173,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(21, 272);
+            this.label5.Location = new System.Drawing.Point(199, 271);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 16);
             this.label5.TabIndex = 26;
@@ -190,7 +193,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(206, 272);
+            this.label3.Location = new System.Drawing.Point(21, 316);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 16);
             this.label3.TabIndex = 24;
@@ -200,7 +203,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(209, 216);
+            this.label2.Location = new System.Drawing.Point(21, 271);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 16);
             this.label2.TabIndex = 23;
@@ -246,17 +249,54 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(209, 242);
+            this.label15.Location = new System.Drawing.Point(21, 297);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(46, 13);
             this.label15.TabIndex = 47;
             this.label15.Text = "Registro";
             // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(324, 78);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(58, 20);
+            this.radioButton2.TabIndex = 50;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Tutor";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(198, 78);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(118, 20);
+            this.radioButton1.TabIndex = 49;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Representante";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(209, 61);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(88, 16);
+            this.label16.TabIndex = 48;
+            this.label16.Text = "Seleccionar:";
+            // 
             // modificarRepresentante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 371);
+            this.ClientSize = new System.Drawing.Size(429, 383);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -311,6 +351,9 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label16;
 
 
     }
