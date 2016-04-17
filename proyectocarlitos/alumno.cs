@@ -20,6 +20,5 @@ namespace proyectocarlitos
         public String  contrasena{ get; set;}
         public String contactoemergencia { get; set;}
         public int numemergencia { get; set; }
-
     }
 }

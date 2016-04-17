@@ -54,6 +54,7 @@ namespace proyectocarlitos
                             alumno.periodo = periodo;
                             try
                             {
+<<<<<<< HEAD
                                 double telefono = Convert.ToInt64(txtTelefono.Text);
                                 alumno.telefono = (int)telefono;
                                 alumno.contactoemergencia = txtContacto.Text;
@@ -81,24 +82,57 @@ namespace proyectocarlitos
                                     }
 
                                     
+=======
+                                double telefono = Convert.ToInt64(textBox9.Text);
+                                alumno.telefono = (int)telefono;
+                                alumno.contactoemergencia = textBox10.Text;
+                                try
+                                {
+                                    double telefonoE = Convert.ToInt64(textBox11.Text);
+                                    alumno.telefonoContacto = (int)telefonoE;
+                                    MessageBox.Show("Usuario Agregado", "¡Alerta!", MessageBoxButtons.OK);
+                                    textBox1.Text = "";
+                                    textBox2.Text = "";
+                                    textBox3.Text = "";
+                                    textBox4.Text = "";
+                                    textBox5.Text = "";
+                                    textBox6.Text = "";
+                                    textBox7.Text = "";
+                                    textBox8.Text = "";
+                                    textBox9.Text = "";
+                                    textBox10.Text = "";
+                                    textBox11.Text = "";
+>>>>>>> origin/master
                                 }
                                 catch(Exception ex)
                                 {
                                     MessageBox.Show("El teléfono de Emergencia es numérico", "¡Advertencia!", MessageBoxButtons.OK);
+<<<<<<< HEAD
                                     Console.Out.WriteLine(ex.Message);
+=======
+                                    Console.Out.Write(ex.Message);
+>>>>>>> origin/master
                                 }
 
                             }
                             catch(Exception ex)
                             {
                                 MessageBox.Show("El teléfono es numérico", "¡Advertencia!", MessageBoxButtons.OK);
+<<<<<<< HEAD
                                 Console.Out.WriteLine(ex.Message);
+=======
+                                Console.Out.Write(ex.Message);
+>>>>>>> origin/master
                             }
                         }
                         catch(Exception ex)
                         {
                             MessageBox.Show("Periodo numérico, ejemplo 201601", "¡Advertencia!", MessageBoxButtons.OK);
+<<<<<<< HEAD
                             Console.Out.WriteLine(ex.Message);
+=======
+                            Console.Out.Write(ex.Message);
+>>>>>>> origin/master
                         }
                     }
                     else
@@ -109,6 +143,7 @@ namespace proyectocarlitos
                 catch(Exception ex)
                 {
                     MessageBox.Show("El registro es numérico","¡Alerta!",MessageBoxButtons.OK);
+                    Console.Out.Write(ex.Message);
                 }
                 
             }
@@ -116,7 +151,10 @@ namespace proyectocarlitos
             {
                 MessageBox.Show("Favor de llenar todos los campos", "¡Alerta!", MessageBoxButtons.OK);
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
         }
     }
 }
