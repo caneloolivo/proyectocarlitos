@@ -36,11 +36,21 @@ namespace proyectocarlitos
         {
             bool result = false;
 
-            SqlCommand insert = new SqlCommand("INSERT INTO ALUMNO(registro,nombre,apaterno,amaterno,domicilio,correo,periodo,telefono,contra,contacto,status) values(@registro,@nombre,@apaterno,@amaterno,@domicilio,@correo,@periodo,@telefono,@contra,@contacto,@status)", getConnection());
+            SqlCommand insert = new SqlCommand("INSERT INTO ALUMNO(registro,nombre,apaterno,amaterno,domicilio,correo,periodo,telefono,contra,contactoemergencia,numemergencia,carrera) values(@registro,@nombre,@apaterno,@amaterno,@domicilio,@correo,@periodo,@telefono,@contra,@contactoemergencia,@numemergencia,@carrera)", getConnection());
             insert.Parameters.AddWithValue("@registro", alumno.registro);
-            insert.Parameters.AddWithValue("@nombre", alumno.registro);
-            insert.Parameters.AddWithValue("@apaterno", alumno.registro);
-            insert.Parameters.AddWithValue("@amaterno", alumno.registro);
+            insert.Parameters.AddWithValue("@nombre", alumno.nombre);
+            insert.Parameters.AddWithValue("@apaterno", alumno.aPaterno);
+            insert.Parameters.AddWithValue("@amaterno", alumno.aMaterno);
+            insert.Parameters.AddWithValue("@domicilio", alumno.domicilio);
+            insert.Parameters.AddWithValue("@correo", alumno.correo);
+            insert.Parameters.AddWithValue("@periodo", alumno.periodo);
+            insert.Parameters.AddWithValue("@correo", alumno.correo);
+            insert.Parameters.AddWithValue("@periodo", alumno.periodo);
+            insert.Parameters.AddWithValue("@telefono", alumno.telefono);
+            insert.Parameters.AddWithValue("@contra", alumno.contrasena);
+            insert.Parameters.AddWithValue("@contactoemergencia", alumno.contactoemergencia);
+            insert.Parameters.AddWithValue("@numemergencia", alumno.contactoemergencia);
+            insert.Parameters.AddWithValue("@carrera", alumno.carrera);
             insert.Connection.Open();
             result = insert.ExecuteNonQuery() == 1;
             insert.Connection.Close();
