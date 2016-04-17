@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyectocarlitos", "proyectocarlitos\proyectocarlitos.csproj", "{F6067A6F-9766-418F-8066-D2E6E0F5D81F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio_Social_Nueva", "..\..\Autonoma\Servicio Social\Servicio_Social_Nueva(puto3)\Servicio_Social_Nueva\Servicio_Social_Nueva.csproj", "{286D42BE-FC04-4F6E-9C6F-75CCA646AD91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F6067A6F-9766-418F-8066-D2E6E0F5D81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6067A6F-9766-418F-8066-D2E6E0F5D81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6067A6F-9766-418F-8066-D2E6E0F5D81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286D42BE-FC04-4F6E-9C6F-75CCA646AD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286D42BE-FC04-4F6E-9C6F-75CCA646AD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286D42BE-FC04-4F6E-9C6F-75CCA646AD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286D42BE-FC04-4F6E-9C6F-75CCA646AD91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
