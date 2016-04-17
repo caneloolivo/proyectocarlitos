@@ -1,16 +1,16 @@
 ﻿namespace proyectocarlitos
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
-        /// Variable del diseñador requerida.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpiar los recursos que se estén utilizando.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido del método con el editor de código.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -50,6 +50,8 @@
             this.modificarEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarNotificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.altaEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.altaEmpleadoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +59,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivoToolStripMenuItem,
+            this.altaEmpleadoToolStripMenuItem,
             this.carreraToolStripMenuItem,
             this.alumnoToolStripMenuItem,
             this.altaCarreraToolStripMenuItem,
@@ -65,8 +68,8 @@
             this.notificacionesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(692, 24);
-            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Size = new System.Drawing.Size(718, 24);
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // archivoToolStripMenuItem
@@ -92,14 +95,12 @@
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.reportesToolStripMenuItem.Text = "Reportes";
-            this.reportesToolStripMenuItem.Click += new System.EventHandler(this.reportesToolStripMenuItem_Click);
             // 
             // cerrarSesionToolStripMenuItem
             // 
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
-            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
             // 
             // carreraToolStripMenuItem
             // 
@@ -138,14 +139,12 @@
             this.altaDeAlumnoToolStripMenuItem.Name = "altaDeAlumnoToolStripMenuItem";
             this.altaDeAlumnoToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.altaDeAlumnoToolStripMenuItem.Text = "Alta de Alumno";
-            this.altaDeAlumnoToolStripMenuItem.Click += new System.EventHandler(this.altaDeAlumnoToolStripMenuItem_Click);
             // 
             // modificarAlumnoToolStripMenuItem
             // 
             this.modificarAlumnoToolStripMenuItem.Name = "modificarAlumnoToolStripMenuItem";
             this.modificarAlumnoToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.modificarAlumnoToolStripMenuItem.Text = "Modificar alumno";
-            this.modificarAlumnoToolStripMenuItem.Click += new System.EventHandler(this.modificarAlumnoToolStripMenuItem_Click);
             // 
             // altaCarreraToolStripMenuItem
             // 
@@ -156,21 +155,18 @@
             this.altaCarreraToolStripMenuItem.Name = "altaCarreraToolStripMenuItem";
             this.altaCarreraToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.altaCarreraToolStripMenuItem.Text = "Carrera";
-            this.altaCarreraToolStripMenuItem.Click += new System.EventHandler(this.altaCarreraToolStripMenuItem_Click);
             // 
             // altaCarreraToolStripMenuItem1
             // 
             this.altaCarreraToolStripMenuItem1.Name = "altaCarreraToolStripMenuItem1";
             this.altaCarreraToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
             this.altaCarreraToolStripMenuItem1.Text = "Alta Carrera";
-            this.altaCarreraToolStripMenuItem1.Click += new System.EventHandler(this.altaCarreraToolStripMenuItem1_Click);
             // 
             // modificarCarreraToolStripMenuItem
             // 
             this.modificarCarreraToolStripMenuItem.Name = "modificarCarreraToolStripMenuItem";
             this.modificarCarreraToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.modificarCarreraToolStripMenuItem.Text = "Modificar Carrera";
-            this.modificarCarreraToolStripMenuItem.Click += new System.EventHandler(this.modificarCarreraToolStripMenuItem_Click);
             // 
             // representanteToolStripMenuItem
             // 
@@ -187,14 +183,12 @@
             this.altaRepresentanteToolStripMenuItem.Name = "altaRepresentanteToolStripMenuItem";
             this.altaRepresentanteToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
             this.altaRepresentanteToolStripMenuItem.Text = "Alta Representante";
-            this.altaRepresentanteToolStripMenuItem.Click += new System.EventHandler(this.altaRepresentanteToolStripMenuItem_Click);
             // 
             // modificarRepresentanteToolStripMenuItem
             // 
             this.modificarRepresentanteToolStripMenuItem.Name = "modificarRepresentanteToolStripMenuItem";
             this.modificarRepresentanteToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
             this.modificarRepresentanteToolStripMenuItem.Text = "Modificar Representante";
-            this.modificarRepresentanteToolStripMenuItem.Click += new System.EventHandler(this.modificarRepresentanteToolStripMenuItem_Click);
             // 
             // empresaToolStripMenuItem
             // 
@@ -211,14 +205,12 @@
             this.altaEmpresaToolStripMenuItem.Name = "altaEmpresaToolStripMenuItem";
             this.altaEmpresaToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.altaEmpresaToolStripMenuItem.Text = "Alta Empresa";
-            this.altaEmpresaToolStripMenuItem.Click += new System.EventHandler(this.altaEmpresaToolStripMenuItem_Click);
             // 
             // modificarEmpresaToolStripMenuItem
             // 
             this.modificarEmpresaToolStripMenuItem.Name = "modificarEmpresaToolStripMenuItem";
             this.modificarEmpresaToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.modificarEmpresaToolStripMenuItem.Text = "Modificar Empresa";
-            this.modificarEmpresaToolStripMenuItem.Click += new System.EventHandler(this.modificarEmpresaToolStripMenuItem_Click);
             // 
             // notificacionesToolStripMenuItem
             // 
@@ -234,20 +226,32 @@
             this.enviarNotificacionesToolStripMenuItem.Name = "enviarNotificacionesToolStripMenuItem";
             this.enviarNotificacionesToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.enviarNotificacionesToolStripMenuItem.Text = "Enviar Notificaciones";
-            this.enviarNotificacionesToolStripMenuItem.Click += new System.EventHandler(this.enviarNotificacionesToolStripMenuItem_Click);
             // 
-            // Form1
+            // altaEmpleadoToolStripMenuItem
+            // 
+            this.altaEmpleadoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.altaEmpleadoToolStripMenuItem1});
+            this.altaEmpleadoToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.altaEmpleadoToolStripMenuItem.Name = "altaEmpleadoToolStripMenuItem";
+            this.altaEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.altaEmpleadoToolStripMenuItem.Text = "Vinculación";
+            this.altaEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.altaEmpleadoToolStripMenuItem_Click);
+            // 
+            // altaEmpleadoToolStripMenuItem1
+            // 
+            this.altaEmpleadoToolStripMenuItem1.Name = "altaEmpleadoToolStripMenuItem1";
+            this.altaEmpleadoToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
+            this.altaEmpleadoToolStripMenuItem1.Text = "Alta Empleado";
+            // 
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 296);
+            this.ClientSize = new System.Drawing.Size(718, 296);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema UAG";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -259,26 +263,27 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem alumnoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaDeAlumnoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarAlumnoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem representanteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem notificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verArchivosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaRepresentanteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem empresaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaEmpresaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem enviarNotificacionesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarRepresentanteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarEmpresaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem modificarCarreraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaEmpleadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem carreraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem modifficarCarreraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alumnoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaDeAlumnoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarAlumnoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem modificarCarreraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem representanteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaRepresentanteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarRepresentanteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empresaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaEmpresaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarEmpresaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem notificacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem enviarNotificacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem altaEmpleadoToolStripMenuItem1;
     }
 }
-

@@ -25,10 +25,17 @@ namespace proyectocarlitos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1();
-            form.Show(this);
-
-            this.Hide();
+            
+            if (textBox1.Text != "" || textBox2.Text !="")
+            {
+                Form1 form = new Form1();
+                form.Show(this);
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Favor de Poner Usuario Contraseña", "¡Advertencia!", MessageBoxButtons.OK);
+            }
         }
 
         private void Login_Load(object sender, EventArgs e)
