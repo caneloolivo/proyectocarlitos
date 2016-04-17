@@ -32,64 +32,73 @@ namespace proyectocarlitos
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
 
-            if (textBox1.Text!="" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != ""
-                && textBox6.Text != "" && textBox7.Text != "" && textBox8.Text != "" && textBox9.Text != "" && textBox10.Text != ""
-                && textBox11.Text != "")
+            if (txtNombre.Text!="" && txtPaterno.Text != "" && txtMaterno.Text != "" && txtCarrera.Text != "" && txtRegistro.Text != ""
+                && txtDomicilio.Text != "" && txtPeriodo.Text != "" && txtCorreo.Text != "" && txtTelefono.Text != "" && txtContacto.Text != ""
+                && txtNumCon.Text != "")
             {
-
                 try
                 {
-                    int registro = Convert.ToInt32(textBox5.Text);
+                    int registro = Convert.ToInt32(txtRegistro.Text);
                     alumno.registro = registro;
-                    alumno.nombre = textBox1.Text;
-                    alumno.aPaterno = textBox2.Text;
-                    alumno.aMaterno = textBox3.Text;
-                    alumno.domicilio = textBox6.Text;
-                    if (Regex.IsMatch(textBox8.Text, @"^(?("")("".+?""@)|(([0-9a-zA-Z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-zA-Z])@))(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,6}))$")) {
-                        alumno.correo = textBox8.Text;
-                        alumno.carrera = textBox4.Text;
+                    alumno.nombre = txtNombre.Text;
+                    alumno.aPaterno = txtPaterno.Text;
+                    alumno.aMaterno = txtMaterno.Text;
+                    alumno.domicilio = txtDomicilio.Text;
+                    if (Regex.IsMatch(txtCorreo.Text, @"^(?("")("".+?""@)|(([0-9a-zA-Z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-zA-Z])@))(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,6}))$")) {
+                        alumno.correo = txtCorreo.Text;
+                        alumno.carrera = txtCarrera.Text;
                         try
                         {
-                            int periodo = Convert.ToInt32(textBox7.Text);
+                            int periodo = Convert.ToInt32(txtPeriodo.Text);
                             alumno.periodo = periodo;
                             try
                             {
-                                int telefono = Convert.ToInt32(textBox9.Text);
-                                alumno.telefono = telefono;
-                                alumno.contactoemergencia = textBox10.Text;
+                                double telefono = Convert.ToInt64(txtTelefono.Text);
+                                alumno.telefono = (int)telefono;
+                                alumno.contactoemergencia = txtContacto.Text;
+                                alumno.contrasena = txtPass.Text;
                                 try
                                 {
-                                    int telefonoE = Convert.ToInt32(textBox11.Text);
-                                    alumno.telefonoContacto = telefonoE;
-                                    MessageBox.Show("Usuario Agregado", "¡Alerta!", MessageBoxButtons.OK);
-                                    textBox1.Text = "";
-                                    textBox2.Text = "";
-                                    textBox3.Text = "";
-                                    textBox4.Text = "";
-                                    textBox5.Text = "";
-                                    textBox6.Text = "";
-                                    textBox7.Text = "";
-                                    textBox8.Text = "";
-                                    textBox9.Text = "";
-                                    textBox10.Text = "";
-                                    textBox11.Text = "";
+                                    double telefonoE = Convert.ToInt64(txtNumCon.Text);
+                                    alumno.numemergencia =(int) telefonoE;
+                                    alumno user = new alumno() { registro = alumno.registro, nombre = alumno.nombre, aPaterno = alumno.aPaterno, aMaterno = alumno.aMaterno, domicilio = alumno.domicilio, correo = alumno.correo, periodo = alumno.periodo, telefono = alumno.telefono, contrasena = alumno.contrasena, contactoemergencia = alumno.contactoemergencia, numemergencia = alumno.numemergencia, carrera = alumno.carrera};
+                                    if (datos.instance.alumno(user))
+                                    {
+                                        MessageBox.Show("Usuario ha sido agregado exitosamente");
+                                        txtRegistro.Text = " ";
+                                        txtNombre.Text = " ";
+                                        txtPaterno.Text = "";
+                                        txtMaterno.Text = "";
+                                        txtDomicilio.Text = "";
+                                        txtCorreo.Text = "";
+                                        txtPeriodo.Text = "";
+                                        txtTelefono.Text = "";
+                                        txtPass.Text = "";
+                                        txtContacto.Text = "";
+                                        txtNumCon.Text = "";
+                                        txtCarrera.Text = "";
+                                    }
+
+                                    
                                 }
                                 catch(Exception ex)
                                 {
                                     MessageBox.Show("El teléfono de Emergencia es numérico", "¡Advertencia!", MessageBoxButtons.OK);
+                                    Console.Out.WriteLine(ex.Message);
                                 }
 
                             }
                             catch(Exception ex)
                             {
                                 MessageBox.Show("El teléfono es numérico", "¡Advertencia!", MessageBoxButtons.OK);
+                                Console.Out.WriteLine(ex.Message);
                             }
                         }
                         catch(Exception ex)
                         {
                             MessageBox.Show("Periodo numérico, ejemplo 201601", "¡Advertencia!", MessageBoxButtons.OK);
+                            Console.Out.WriteLine(ex.Message);
                         }
                     }
                     else
@@ -107,9 +116,7 @@ namespace proyectocarlitos
             {
                 MessageBox.Show("Favor de llenar todos los campos", "¡Alerta!", MessageBoxButtons.OK);
             }
-=======
-            
->>>>>>> origin/master
+
         }
     }
 }

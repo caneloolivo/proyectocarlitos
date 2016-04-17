@@ -33,9 +33,6 @@
             this.verArchivosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.carreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.altaCarreraToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modifficarCarreraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaDeAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarAlumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,7 +54,6 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivoToolStripMenuItem,
-            this.carreraToolStripMenuItem,
             this.alumnoToolStripMenuItem,
             this.altaCarreraToolStripMenuItem,
             this.representanteToolStripMenuItem,
@@ -100,28 +96,6 @@
             this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
             this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
-            // 
-            // carreraToolStripMenuItem
-            // 
-            this.carreraToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.altaCarreraToolStripMenuItem2,
-            this.modifficarCarreraToolStripMenuItem});
-            this.carreraToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.carreraToolStripMenuItem.Name = "carreraToolStripMenuItem";
-            this.carreraToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.carreraToolStripMenuItem.Text = "Carrera";
-            // 
-            // altaCarreraToolStripMenuItem2
-            // 
-            this.altaCarreraToolStripMenuItem2.Name = "altaCarreraToolStripMenuItem2";
-            this.altaCarreraToolStripMenuItem2.Size = new System.Drawing.Size(188, 22);
-            this.altaCarreraToolStripMenuItem2.Text = "Alta carrera";
-            // 
-            // modifficarCarreraToolStripMenuItem
-            // 
-            this.modifficarCarreraToolStripMenuItem.Name = "modifficarCarreraToolStripMenuItem";
-            this.modifficarCarreraToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
-            this.modifficarCarreraToolStripMenuItem.Text = "Modifficar Carrera";
             // 
             // alumnoToolStripMenuItem
             // 
@@ -276,9 +250,6 @@
         private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem modificarCarreraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem carreraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaCarreraToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem modifficarCarreraToolStripMenuItem;
     }
 }
 
