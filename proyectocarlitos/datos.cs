@@ -9,18 +9,13 @@ namespace proyectocarlitos
 {
     class datos
     {
-<<<<<<< HEAD
-        private static datos datos = new datos();
-=======
-        private static datos datos =
-            new datos();
->>>>>>> origin/master
+        private static datos datingoss = new datos();
 
         public static datos instance
         {
             get
             {
-                return datos;
+                return datingoss;
             }
         }
         
@@ -53,11 +48,8 @@ namespace proyectocarlitos
             insert.Parameters.AddWithValue("@telefono", alumno.telefono);
             insert.Parameters.AddWithValue("@contra", alumno.contrasena);
             insert.Parameters.AddWithValue("@contactoemergencia", alumno.contactoemergencia);
-<<<<<<< HEAD
             insert.Parameters.AddWithValue("@numemergencia", alumno.telefonoContacto);
-=======
             insert.Parameters.AddWithValue("@numemergencia", alumno.numemergencia);
->>>>>>> origin/master
             insert.Parameters.AddWithValue("@carrera", alumno.carrera);
             insert.Connection.Open();
             result = insert.ExecuteNonQuery() == 1;
