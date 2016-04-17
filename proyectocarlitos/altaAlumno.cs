@@ -55,13 +55,13 @@ namespace proyectocarlitos
                             alumno.periodo = periodo;
                             try
                             {
-                                int telefono = Convert.ToInt32(textBox9.Text);
-                                alumno.telefono = telefono;
+                                double telefono = Convert.ToInt64(textBox9.Text);
+                                alumno.telefono = (int)telefono;
                                 alumno.contactoemergencia = textBox10.Text;
                                 try
                                 {
-                                    int telefonoE = Convert.ToInt32(textBox11.Text);
-                                    alumno.telefonoContacto = telefonoE;
+                                    double telefonoE = Convert.ToInt64(textBox11.Text);
+                                    alumno.telefonoContacto = (int)telefonoE;
                                     MessageBox.Show("Usuario Agregado", "¡Alerta!", MessageBoxButtons.OK);
                                     textBox1.Text = "";
                                     textBox2.Text = "";
@@ -78,17 +78,20 @@ namespace proyectocarlitos
                                 catch(Exception ex)
                                 {
                                     MessageBox.Show("El teléfono de Emergencia es numérico", "¡Advertencia!", MessageBoxButtons.OK);
+                                    Console.Out.Write(ex.Message);
                                 }
 
                             }
                             catch(Exception ex)
                             {
                                 MessageBox.Show("El teléfono es numérico", "¡Advertencia!", MessageBoxButtons.OK);
+                                Console.Out.Write(ex.Message);
                             }
                         }
                         catch(Exception ex)
                         {
                             MessageBox.Show("Periodo numérico, ejemplo 201601", "¡Advertencia!", MessageBoxButtons.OK);
+                            Console.Out.Write(ex.Message);
                         }
                     }
                     else
@@ -99,6 +102,7 @@ namespace proyectocarlitos
                 catch(Exception ex)
                 {
                     MessageBox.Show("El registro es numérico","¡Alerta!",MessageBoxButtons.OK);
+                    Console.Out.Write(ex.Message);
                 }
                 
             }
