@@ -9,7 +9,14 @@ namespace proyectocarlitos
 {
     class datos
     {
+<<<<<<< HEAD
         private static datos datingoss = new datos();
+=======
+
+        private static datos datos = new datos();
+
+
+>>>>>>> origin/master
 
         public static datos instance
         {
@@ -48,7 +55,10 @@ namespace proyectocarlitos
             insert.Parameters.AddWithValue("@telefono", alumno.telefono);
             insert.Parameters.AddWithValue("@contra", alumno.contrasena);
             insert.Parameters.AddWithValue("@contactoemergencia", alumno.contactoemergencia);
+<<<<<<< HEAD
             insert.Parameters.AddWithValue("@numemergencia", alumno.telefonoContacto);
+=======
+>>>>>>> origin/master
             insert.Parameters.AddWithValue("@numemergencia", alumno.numemergencia);
             insert.Parameters.AddWithValue("@carrera", alumno.carrera);
             insert.Connection.Open();

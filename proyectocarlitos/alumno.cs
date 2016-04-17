@@ -21,5 +21,9 @@ namespace proyectocarlitos
         public String contactoemergencia { get; set;}
         public int telefonoContacto { get; set; }
         public int numemergencia { get; set; }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     }
 }
