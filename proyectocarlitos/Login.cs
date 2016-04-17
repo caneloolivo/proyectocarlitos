@@ -26,7 +26,7 @@ namespace proyectocarlitos
         private void button1_Click(object sender, EventArgs e)
         {
             
-            if (textBox1.Text != "" || textBox2.Text !="")
+            if (textBox1.Text != "" && textBox2.Text !="")
             {
                 Form1 form = new Form1();
                 form.Show(this);
