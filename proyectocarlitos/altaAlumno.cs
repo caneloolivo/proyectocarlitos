@@ -77,18 +77,18 @@ namespace proyectocarlitos
                                 }
                                 catch(Exception ex)
                                 {
-                                    MessageBox.Show("El teléfono de Emergencia es númerico", "¡Advertencia!", MessageBoxButtons.OK);
+                                    MessageBox.Show("El teléfono de Emergencia es numérico", "¡Advertencia!", MessageBoxButtons.OK);
                                 }
 
                             }
                             catch(Exception ex)
                             {
-                                MessageBox.Show("El teléfono es númerico", "¡Advertencia!", MessageBoxButtons.OK);
+                                MessageBox.Show("El teléfono es numérico", "¡Advertencia!", MessageBoxButtons.OK);
                             }
                         }
                         catch(Exception ex)
                         {
-                            MessageBox.Show("Periodo númerico, ejemplo 201601", "¡Advertencia!", MessageBoxButtons.OK);
+                            MessageBox.Show("Periodo numérico, ejemplo 201601", "¡Advertencia!", MessageBoxButtons.OK);
                         }
                     }
                     else
@@ -98,7 +98,7 @@ namespace proyectocarlitos
                 }
                 catch(Exception ex)
                 {
-                    MessageBox.Show("El registro es numerico","¡Alerta!",MessageBoxButtons.OK);
+                    MessageBox.Show("El registro es numérico","¡Alerta!",MessageBoxButtons.OK);
                 }
                 
             }
