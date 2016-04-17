@@ -13,7 +13,7 @@ namespace proyectocarlitos
         public String giro{get; set;}
         public String representanteLegal {get; set;}
         public String direccion{get; set;}
-        public String telefono{get; set;}
+        public int telefono{get; set;}
         public String areaTrabajo{get; set;}
         public String horario{get; set;}
         public String descripcion{get; set;}
