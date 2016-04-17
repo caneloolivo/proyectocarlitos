@@ -39,6 +39,8 @@ namespace proyectocarlitos
             SqlCommand insert = new SqlCommand("INSERT INTO ALUMNO(registro,nombre,apaterno,amaterno,domicilio,correo,periodo,telefono,contra,contacto,status) values(@registro,@nombre,@apaterno,@amaterno,@domicilio,@correo,@periodo,@telefono,@contra,@contacto,@status)", getConnection());
             insert.Parameters.AddWithValue("@registro", alumno.registro);
             insert.Parameters.AddWithValue("@nombre", alumno.registro);
+            insert.Parameters.AddWithValue("@apaterno", alumno.registro);
+            insert.Parameters.AddWithValue("@amaterno", alumno.registro);
             insert.Connection.Open();
             result = insert.ExecuteNonQuery() == 1;
             insert.Connection.Close();
