@@ -51,7 +51,6 @@ namespace proyectocarlitos
             insert.Parameters.AddWithValue("@telefono", alumno.telefono);
             insert.Parameters.AddWithValue("@contra", alumno.contrasena);
             insert.Parameters.AddWithValue("@contactoemergencia", alumno.contactoemergencia);
-            insert.Parameters.AddWithValue("@numemergencia", alumno.telefonoContacto);
             insert.Parameters.AddWithValue("@numemergencia", alumno.numemergencia);
             insert.Parameters.AddWithValue("@carrera", alumno.carrera);
             insert.Connection.Open();
