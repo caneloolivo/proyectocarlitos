@@ -14,11 +14,11 @@ namespace proyectocarlitos
         public String  aMaterno{ get; set;}
         public String  domicilio{ get; set;}
         public String  correo{ get; set;}
+        public String carrera { get; set; }
         public int  periodo{ get; set;}
-        public int  telefono{ get; set;}
+        public int  telefono{ get; set;}        
         public String  contraseña{ get; set;}
         public String  contacto{ get; set;}
-        public String  aMaterno{ get; set;}
-
+        public int telefonoContacto { get; set; }
     }
 }
