@@ -57,7 +57,15 @@ namespace proyectocarlitos
                         carrera.nombre = textBox2.Text;
                         carrera.facultad = textBox3.Text;
                         carrera.tipoPeriodos = periodo;
-
+                        MessageBox.Show("Carrera Agregada", "¡Alerta!", MessageBoxButtons.OK);
+                        textBox1.Text = "";
+                        textBox2.Text = "";
+                        textBox3.Text = "";
+                        textBox4.Text = "";
+                        textBox5.Text = "";
+                        periodo = "";
+                        radioButton1.Checked = false;
+                        radioButton2.Checked = false;
                     }
                     catch (Exception ex)
                     {
