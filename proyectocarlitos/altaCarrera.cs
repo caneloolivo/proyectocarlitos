@@ -43,22 +43,35 @@ namespace proyectocarlitos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && periodo != "")
             {
-                int idCarrera = Convert.ToInt32(textBox5.Text);
-                carrera.idCarrera = idCarrera;
-                carrera.nombre = textBox1.Text;
                 try
                 {
-                    
-                }
-                catch(Exception ex)
-                {
+                    int idCarrera = Convert.ToInt32(textBox5.Text);
+                    carrera.idCarrera = idCarrera;
+                    carrera.director = textBox1.Text;
+                    try
+                    {
+                        int periodos = Convert.ToInt32(textBox4.Text);
+                        carrera.totalPeriodo = periodos;
+                        carrera.nombre = textBox2.Text;
+                        carrera.facultad = textBox3.Text;
+                        carrera.tipoPeriodos = periodo;
 
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Total de periodos es numérico", "¡Alerta!", MessageBoxButtons.OK);
+                    }
                 }
-            }catch(Exception ex)
+                catch (Exception ex)
+                {
+                    MessageBox.Show("ID de carrera es numérico", "¡Alerta!", MessageBoxButtons.OK);
+                }
+            }
+            else
             {
-                MessageBox.Show("ID de carrera es numerico")
+                MessageBox.Show("Favor de llenar todos los campos", "¡Alerta!", MessageBoxButtons.OK);
             }
         }
     }

@@ -13,5 +13,6 @@ namespace proyectocarlitos
         public String  nombre{ get; set; }
         public int  totalPeriodo{ get; set; }
         public String  facultad{ get; set;}
+        public String tipoPeriodos { get; set; }
     }
 }

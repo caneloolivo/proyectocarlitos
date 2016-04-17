@@ -57,7 +57,7 @@ namespace proyectocarlitos
                             {
                                 int telefono = Convert.ToInt32(textBox9.Text);
                                 alumno.telefono = telefono;
-                                alumno.contacto = textBox10.Text;
+                                alumno.contactoemergencia = textBox10.Text;
                                 try
                                 {
                                     int telefonoE = Convert.ToInt32(textBox11.Text);

@@ -17,8 +17,8 @@ namespace proyectocarlitos
         public String carrera { get; set; }
         public int  periodo{ get; set;}
         public int  telefono{ get; set;}        
-        public String  contraseña{ get; set;}
-        public String  contacto{ get; set;}
+        public String  contrasena{ get; set;}
+        public String contactoemergencia { get; set;}
         public int telefonoContacto { get; set; }
     }
 }
