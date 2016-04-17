@@ -32,6 +32,7 @@ namespace proyectocarlitos
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
             if (textBox1.Text!="" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != ""
                 && textBox6.Text != "" && textBox7.Text != "" && textBox8.Text != "" && textBox9.Text != "" && textBox10.Text != ""
@@ -106,6 +107,9 @@ namespace proyectocarlitos
             {
                 MessageBox.Show("Favor de llenar todos los campos", "¡Alerta!", MessageBoxButtons.OK);
             }
+=======
+            
+>>>>>>> origin/master
         }
     }
 }
