@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace proyectocarlitos
 {
-    class alumno
+    public class alumno
     {
         public int registro{get; set;}
         public String  nombre{ get; set; }
@@ -14,11 +14,11 @@ namespace proyectocarlitos
         public String  aMaterno{ get; set;}
         public String  domicilio{ get; set;}
         public String  correo{ get; set;}
-        public String carrera { get; set; }
         public int  periodo{ get; set;}
-        public int  telefono{ get; set;}        
+        public double telefono{ get; set;}        
         public String  contrasena{ get; set;}
         public String contactoemergencia { get; set;}
-        public int numemergencia { get; set; }
+        public double numemergencia { get; set; }
+        public String carrera { get; set; }
     }
 }

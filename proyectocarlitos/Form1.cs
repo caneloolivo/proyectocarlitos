@@ -97,5 +97,17 @@ namespace proyectocarlitos
         {
             // D: pruebita
         }
+
+        private void buscarAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            buscarAlumno form = new buscarAlumno();
+            form.Show(this);
+        }
+
+        private void busquedaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            buscarCarrera form = new buscarCarrera();
+            form.Show(this);
+        }
     }
 }

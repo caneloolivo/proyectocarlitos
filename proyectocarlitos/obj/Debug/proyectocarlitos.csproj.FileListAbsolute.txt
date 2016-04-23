@@ -88,3 +88,6 @@ C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proye
 C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.pdb
 >>>>>>> origin/master
 C:\Users\vicen\Documents\School\Sistemas Distribuidos\Proyectp\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.Form2.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.buscarAlumno.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.buscarCarrera.resources
+C:\Users\naty\Documents\GitHub\proyectocarlitos\proyectocarlitos\obj\Debug\proyectocarlitos.modificarCarrera1.resources

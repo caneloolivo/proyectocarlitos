@@ -17,7 +17,7 @@ namespace proyectocarlitos
         public altaCarrera()
         {
             InitializeComponent();
-            periodo = "";
+            //periodo = "";
             carrera = new carrera();
         }
 
@@ -33,39 +33,42 @@ namespace proyectocarlitos
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            periodo = "Cuatrimestre";
+           periodo = "Cuatrimestre";
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            periodo = "Semestre";
+           periodo = "Semestre";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && periodo != "")
+            if (txtDirector.Text != "" && txtNombre.Text != "" && txtFacultad.Text != "" && txtTotalPeriodo.Text != "" && periodo != "" && cbcStatus.Text != "")
             {
                 try
                 {
-                    int idCarrera = Convert.ToInt32(textBox5.Text);
-                    carrera.idCarrera = idCarrera;
-                    carrera.director = textBox1.Text;
+                    //int idCarrera = Convert.ToInt32(txtID.Text);
+                    //carrera.idCarrera = idCarrera;
+                    carrera.director = txtDirector.Text;
                     try
                     {
-                        int periodos = Convert.ToInt32(textBox4.Text);
-                        carrera.totalPeriodo = periodos;
-                        carrera.nombre = textBox2.Text;
-                        carrera.facultad = textBox3.Text;
-                        carrera.tipoPeriodos = periodo;
-                        MessageBox.Show("Carrera Agregada", "¡Alerta!", MessageBoxButtons.OK);
-                        textBox1.Text = "";
-                        textBox2.Text = "";
-                        textBox3.Text = "";
-                        textBox4.Text = "";
-                        textBox5.Text = "";
-                        periodo = "";
-                        radioButton1.Checked = false;
-                        radioButton2.Checked = false;
+                       carrera.totalPeriodo = Convert.ToInt32(txtTotalPeriodo.Text);
+                       carrera.nombre = txtNombre.Text;
+                       carrera.facultad = txtFacultad.Text;
+                       carrera.estado = cbcStatus.Text;
+                       carrera.tipoPeriodos = periodo;
+                        carrera user = new carrera() { director = carrera.director, nombre = carrera.nombre, totalPeriodo = carrera.totalPeriodo, facultad = carrera.facultad, tipoPeriodos = carrera.tipoPeriodos, estado = carrera.estado };
+                        if (Datos.instance.carrera(user))
+                        {
+                            MessageBox.Show("Carrera ha sido agregado exitosamente");
+                            txtDirector.Text = "";
+                            txtNombre.Text = "";
+                            txtTotalPeriodo.Text = "";
+                            txtFacultad.Text = "";
+                            RBCuatri.Checked =false;
+                            RBSemestre.Checked = false;
+                            cbcStatus.Text = "";
+                        }
                     }
                     catch (Exception ex)
                     {
@@ -74,7 +77,7 @@ namespace proyectocarlitos
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("ID de carrera es numérico", "¡Alerta!", MessageBoxButtons.OK);
+                    //MessageBox.Show("ID de carrera es numérico", "¡Alerta!", MessageBoxButtons.OK);
                 }
             }
             else

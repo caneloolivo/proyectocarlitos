@@ -54,17 +54,16 @@ namespace proyectocarlitos
                             alumno.periodo = periodo;
                             try
                             {
-<<<<<<< HEAD
                                 double telefono = Convert.ToInt64(txtTelefono.Text);
-                                alumno.telefono = (int)telefono;
+                                alumno.telefono = (int)(telefono);
                                 alumno.contactoemergencia = txtContacto.Text;
                                 alumno.contrasena = txtPass.Text;
                                 try
                                 {
                                     double telefonoE = Convert.ToInt64(txtNumCon.Text);
-                                    alumno.numemergencia =(int) telefonoE;
-                                    alumno user = new alumno() { registro = alumno.registro, nombre = alumno.nombre, aPaterno = alumno.aPaterno, aMaterno = alumno.aMaterno, domicilio = alumno.domicilio, correo = alumno.correo, periodo = alumno.periodo, telefono = alumno.telefono, contrasena = alumno.contrasena, contactoemergencia = alumno.contactoemergencia, numemergencia = alumno.numemergencia, carrera = alumno.carrera};
-                                    if (datos.instance.alumno(user))
+                                    alumno.numemergencia = (int)(telefonoE);
+                                    alumno user = new alumno() { registro = alumno.registro, nombre = alumno.nombre, aPaterno = alumno.aPaterno, aMaterno = alumno.aMaterno, domicilio = alumno.domicilio, correo = alumno.correo, periodo = alumno.periodo, telefono = alumno.telefono, contrasena = alumno.contrasena, contactoemergencia = alumno.contactoemergencia, numemergencia = alumno.numemergencia, carrera = alumno.carrera };
+                                    if (Datos.instance.alumno(user))
                                     {
                                         MessageBox.Show("Usuario ha sido agregado exitosamente");
                                         txtRegistro.Text = " ";
@@ -80,59 +79,26 @@ namespace proyectocarlitos
                                         txtNumCon.Text = "";
                                         txtCarrera.Text = "";
                                     }
-
                                     
-=======
-                                double telefono = Convert.ToInt64(textBox9.Text);
-                                alumno.telefono = (int)telefono;
-                                alumno.contactoemergencia = textBox10.Text;
-                                try
-                                {
-                                    double telefonoE = Convert.ToInt64(textBox11.Text);
-                                    alumno.telefonoContacto = (int)telefonoE;
-                                    MessageBox.Show("Usuario Agregado", "¡Alerta!", MessageBoxButtons.OK);
-                                    textBox1.Text = "";
-                                    textBox2.Text = "";
-                                    textBox3.Text = "";
-                                    textBox4.Text = "";
-                                    textBox5.Text = "";
-                                    textBox6.Text = "";
-                                    textBox7.Text = "";
-                                    textBox8.Text = "";
-                                    textBox9.Text = "";
-                                    textBox10.Text = "";
-                                    textBox11.Text = "";
->>>>>>> origin/master
                                 }
                                 catch(Exception ex)
                                 {
                                     MessageBox.Show("El teléfono de Emergencia es numérico", "¡Advertencia!", MessageBoxButtons.OK);
-<<<<<<< HEAD
                                     Console.Out.WriteLine(ex.Message);
-=======
                                     Console.Out.Write(ex.Message);
->>>>>>> origin/master
                                 }
 
                             }
                             catch(Exception ex)
                             {
                                 MessageBox.Show("El teléfono es numérico", "¡Advertencia!", MessageBoxButtons.OK);
-<<<<<<< HEAD
                                 Console.Out.WriteLine(ex.Message);
-=======
-                                Console.Out.Write(ex.Message);
->>>>>>> origin/master
                             }
                         }
                         catch(Exception ex)
                         {
                             MessageBox.Show("Periodo numérico, ejemplo 201601", "¡Advertencia!", MessageBoxButtons.OK);
-<<<<<<< HEAD
                             Console.Out.WriteLine(ex.Message);
-=======
-                            Console.Out.Write(ex.Message);
->>>>>>> origin/master
                         }
                     }
                     else
@@ -151,10 +117,6 @@ namespace proyectocarlitos
             {
                 MessageBox.Show("Favor de llenar todos los campos", "¡Alerta!", MessageBoxButtons.OK);
             }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
         }
     }
 }
